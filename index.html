@@ -26,8 +26,8 @@
 <body>
 
     <div id="app">
-        <ul>
-            <li v-for="email in emails" v-show="emails.length === 10">{{email}}</li>
+        <ul v-show="emails.length === 10">
+            <li v-for="email in emails" >{{email}}</li>
         </ul>
     </div>
 
